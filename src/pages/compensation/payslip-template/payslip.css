@@ -1,0 +1,93 @@
+body {
+	/* background: #f0f0f0;
+	width: 100vw;
+	height: 100vh;
+	display: flex; */
+	/* justify-content: center; */
+    /* padding: 20px; */
+    /* height: 100%; */
+}
+
+
+
+/* * {
+	font-family: 'Roboto', sans-serif;
+	color: #444;
+} */
+
+#payslip {
+	width: calc( 8.5in - 80px );
+	height: calc( 11in - 60px );
+	background: #fff;
+	padding: 30px 40px;
+}
+.payDetails_td{
+  /* background-color: aqua; */
+  border-top: 1px solid rgb(218, 218, 218) !important;
+  border-left: 1px solid rgb(218, 218, 218) !important;
+  border-bottom: 1px solid rgb(218, 218, 218) !important;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.payDetails_header_th {
+  border-left: 1px solid rgb(218, 218, 218);
+  padding: 8px;
+  text-align: center;
+  background-color: #f3f4f5;
+}
+
+
+.payDetails  {
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid rgb(218, 218, 218) !important;
+  /* border-collapse: collapse; */
+}
+.basicDetail{
+  width: 100%;
+  border: 1px solid rgb(218, 218, 218) !important;
+}
+.basicDetail tr td {
+  padding: 10px;
+}
+.basicDetail_header_tr{
+  
+  border-bottom: 1px solid rgb(218, 218, 218) !important;
+}
+.basicDetail_header_tr th {
+  padding: 10px;
+}
+.basicDetail_tr {
+/* background: red; */
+margin-top: -15px !important;
+}
+.basicDetail_text{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.outer{
+  width: 100%;
+  background: rgb(218, 218, 218);
+display: flex;
+padding: 15px;
+margin-bottom: 15px;
+}
+.company_logo{
+  flex-grow: 1
+}
+.space{
+  flex-grow: 1
+}
+.company_text{
+/* align-items: center;
+justify-content: center; */
+text-align: center;
+flex-grow: 8
+}
+.outer h1{
+font-size: 22px;
+font-weight: 700;
+}
